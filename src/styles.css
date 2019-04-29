@@ -1,0 +1,30 @@
+.bg {
+  background-color: #f9dec9;
+  color: #3a405a;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.fa-ban {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 18px;
+  cursor: no-drop;
+}
+
+.fa-ban:hover {
+  color: red;
+}
+
+.selected::after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-size: 1em;
+  margin-left: 10px;
+  display: inline-block;
+  color: pink;
+}
